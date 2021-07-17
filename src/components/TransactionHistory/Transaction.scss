@@ -1,0 +1,6 @@
+tr {
+  border-color: white;
+  &:nth-child(2n + 1) {
+    background-color: grey;
+  }
+}
