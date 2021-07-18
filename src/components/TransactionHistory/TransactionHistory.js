@@ -5,7 +5,7 @@ import './Transaction.scss'
 export default function TransactionHistory({ items }) {
   return (
     <table className="transaction-history">
-      <thead>
+      <thead className="transaction-head">
         <tr>
           <th>Type</th>
           <th>Amount</th>
